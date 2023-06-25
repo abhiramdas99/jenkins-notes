@@ -9,6 +9,7 @@ in jenkins server, add new node. suppose lamp server
 		usage : Only build job with label expression matching this node
 		lunch method : lunch agents via ssh
 		host : past the public ip of node here (13.233.216.242)
-		credentials : ubuntu(ubuntu_lamp_server)  
+		credentials : ubuntu(ubuntu_lamp_server) 
+                             https://raw.githubusercontent.com/abhiramdas99/jenkins-notes/main/manage-credential  
 		host key verification strategy : Manually trusted key varifiacation strategy
 		save 
